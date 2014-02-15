@@ -1,0 +1,9 @@
+#samples
+{
+	"./dir/null.brr"
+}
+
+#instruments
+{
+	"./dir/null.brr" $00 $00 $00 $04 $00
+}
