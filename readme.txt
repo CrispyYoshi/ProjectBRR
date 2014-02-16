@@ -11,6 +11,6 @@ The brass and percussion get their own sub-folder with even more instruments. Th
 
 At the end of each BRR is the information you would put in #instruments, followed by any additional information you think may be necessary to know. For example, a percussion instrument would have information about octave/pitch at the end like "[ff6]_snare $FF $E0 $B8 $0F $58 (o3c).brr". For easy reading purposes, a comma followed by a space would help separate hex commands, and is highly encouraged. Ex: "[custom]_belltree $84 $CC $00 $04 $00 , $EB $00 $F4 $FA (o4e).brr"
 
-If there are different ways of playing an instrument, the instrument's name comes first, followed by an underscore and the way it's played. For example, "acoustic bass" and "slap bass" would have folders named "bass_acoustic" and "bass_slap". Another example: "crash cymbal" and "ride cymbal" would be "
+If there are different ways of playing an instrument, the instrument's name comes first, followed by an underscore and the gameID, followed by the way it's played. For example, "acoustic bass" and "slap bass" would both be in a folder named "basses", and their BRRs would be structured "bass_[gameID]_acoustic" and "bass_[gameID]_slap". Another example: "crash cymbal" and "ride cymbal" would be "crash_[gameID]_cymbal" and "ride_[gameID]_cymbal".
 
 ****If you do not know what your instrument is, please put it in the "_____other" folder with the format "[gameID]_unknown1.brr". Any unidentified synths should be in the "synths" folder labelled as "synth_[gameID]_unknown1.brr".
