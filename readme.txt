@@ -6,7 +6,7 @@ Anyone is allowed to amend to the list, however I only ask that the format is ke
 Do not tune with flats (b-), only sharps (a+). Also don't tune with hXX. Unless the instrument is not melodic, it's preferred (not recommended, but preferred) to tune all instruments around "C" on "o3".
 
 --How the repository is structured--
-So for the most part, just copy what everyone else did in the repo. This wall of text only exists if someone has questions about specific cases:
+********So for the most part, just copy what everyone else did in the repo. This wall of text only exists if someone has questions about specific cases********
 
 Each instrument's in its own folder, and each folder has various versions of that instrument from different games. For example, "trumpet" could have the "[ff6] trumpet" and "[kss] trumpet". If you prefer finding instruments from a specific game, search by the game, like "[ff6]". General MIDI is tagged [midi] and any custom instrument is tagged as [custom]. Everything is in lower-case and based off the SNESMusic.org rsn tagging system.
 
