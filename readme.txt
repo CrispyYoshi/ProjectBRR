@@ -2,6 +2,9 @@ This is the BRR repository, where the goal is to organize SNES instruments (cust
 
 Anyone is allowed to amend to the list, however I only ask that the format is kept consistent to the rest of the repository. Please do not modify any files created by other users. (You can add instruments to the proper folders though.)
 
+--Tuning stuff--
+Do not tune with flats (b-), only sharps (a+). Also don't tune with hXX. Unless the instrument is not melodic, it's preferred (not recommended, but preferred) to tune all instruments around "C" on "o3".
+
 --How the repository is structured--
 So for the most part, just copy what everyone else did in the repo. This wall of text only exists if someone has questions about specific cases:
 
@@ -14,3 +17,7 @@ At the end of each BRR is the information you would put in #instruments, followe
 If there are different ways of playing an instrument, the instrument's name comes first, followed by an underscore and the gameID, followed by the way it's played. For example, "acoustic bass" and "slap bass" would both be in a folder named "basses", and their BRRs would be structured "bass_[gameID]_acoustic" and "bass_[gameID]_slap". Another example: "crash cymbal" and "ride cymbal" would be "crash_[gameID]_cymbal" and "ride_[gameID]_cymbal".
 
 ****If you do not know what your instrument is, please put it in the "_____other" folder with the format "[gameID]_unknown1.brr". Any unidentified synths should be in the "synths" folder labelled as "synth_[gameID]_unknown1.brr".
+
+****If there are multiple ADSR values for a single BRR, please use the ADSR value the user is most likely to use. Remember that after #instruments you can separate the info by a comma and add any additional details to the BRR that you want. Do not make multiple BRRs of the same file to list several different ADSR values, because that only makes updating slower.
+
+****Synths are not top priority in organizing. "synth strings" go in the "strings" folder and "synth bass" goes in the "basses" folder. Synths include "50% pulse square" and "squishy kirby thing". Please name synths to the best of your ability.
