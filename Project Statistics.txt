@@ -2,10 +2,11 @@ This is the statistics of the project thus far. Please amend to this as you add 
 
 -SNES Instrument Sets-
 
-[ff6] Final Fantasy 6 (6/??) [+2 modified]
-[dkc] Donkey Kong Country (20/??)
-[yi] Yoshi's Island (34/34)
+[ct] Chrono Trigger (Count: 30)
+[dkc] Donkey Kong Country (Count: 20)
+[ff6] Final Fantasy 6 (Count: 6[+2 modified])
+[yi] Yoshi's Island (Count: 34)
 
 -Other tags-
 [midi] General MIDI (Currently: 1)
-[custom] Anything imported from a non-SNES game (Currently: 1)
+[custom] Anything imported from a non-SNES game (Count: 1)
