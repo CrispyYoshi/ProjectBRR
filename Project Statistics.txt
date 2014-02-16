@@ -8,5 +8,5 @@ This is the statistics of the project thus far. Please amend to this as you add 
 [yi] Yoshi's Island (Count: 34)
 
 -Other tags-
-[midi] General MIDI (Currently: 1)
+[midi] General MIDI (Count: 1)
 [custom] Anything imported from a non-SNES game (Count: 1)
